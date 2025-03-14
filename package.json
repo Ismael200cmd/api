@@ -5,7 +5,7 @@
   "description": "Criando uma API do ZERO com Node.js e Banco de Dados",
   "main": "index.js",
   "scripts": {
-    "start": "node src/server.js"
+    "start": "node --watch src/server.js"
   },
   "keywords": [],
   "author": "",
