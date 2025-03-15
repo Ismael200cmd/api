@@ -5,12 +5,17 @@
   "description": "Criando uma API do ZERO com Node.js e Banco de Dados",
   "main": "index.js",
   "scripts": {
-    "start": "node --watch src/server.js"
+    "start": "node --watch src/server.js",
+    "studio": "npx prisma studio"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@prisma/client": "^6.5.0",
     "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "prisma": "^6.5.0"
   }
 }
